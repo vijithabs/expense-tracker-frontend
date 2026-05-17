@@ -4,7 +4,7 @@ import { User, Eye, EyeOff, Lock } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const Login = ({ onLogin, API_URL = "http://localhost:5000" }) => {
+const Login = ({ onLogin, API_URL = "https://expense-tracker-backend-c1iz.onrender.com" }) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [showPassword, setShowPassword] = useState(false);
@@ -146,11 +146,11 @@ const Login = ({ onLogin, API_URL = "http://localhost:5000" }) => {
                                 onClick={() => setShowPassword(!showPassword)}
                                 aria-label="Toggle password visibility"
                             >
-                                {/* {showPassword ? (
+                                {showPassword ? (
                                     <EyeOff size={18} />
                                 ) : (
                                     <Eye size={18} />
-                                )} */}
+                                )}
                             </button>
                         </div>
                     </div>

@@ -48,7 +48,7 @@ import {
     expensePageStyles as styles,
 } from "../assets/dummyStyles";
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://expense-tracker-backend-c1iz.onrender.com";
 
 function toIsoWithClientTime(dateValue) {
     if (!dateValue) {

@@ -10,7 +10,7 @@ import Income from './pages/Income';
 import Expense from './pages/Expense';
 import Profile from './pages/Profile';
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://expense-tracker-backend-c1iz.onrender.com";
 
 // Get transactions from localStorage
 const getTransactionsFromStorage = () => {

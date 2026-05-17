@@ -45,7 +45,7 @@ import FinancialCard from '../components/FinancialCard';
 import GaugeCard from '../components/GaugeCard';
 import AddTransactionModal from '../components/Add';
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://expense-tracker-backend-c1iz.onrender.com";
 
 const getAuthHeader = () => {
   const token =

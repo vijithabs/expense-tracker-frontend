@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import { Outlet } from 'react-router-dom';
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://expense-tracker-backend-c1iz.onrender.com";
 const CATEGORY_ICONS = {
     Food: <Utensils className="w-4 h-4" />,
     Housing: <Home className="w-4 h-4" />,
